@@ -44,7 +44,7 @@ class Judge:
         time_end = time.time()
 
         print('=' * length)
-        print(color.render(f'\n\nTotal time: {round(time_end - time_start, 4)}s', 'INF'))
+        print(color.render(f'\nTotal time: {round(time_end - time_start, 4)}s', 'INF'))
 
         print('\nSaving all student result ... ', end='')
         io.output_all_result()
